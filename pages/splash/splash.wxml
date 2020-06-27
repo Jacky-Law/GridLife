@@ -1,0 +1,116 @@
+<!--splash.wxml-->
+<view class="container">
+	<swiper indicator-dots="true" indicator-active-color="green">
+
+		<swiper-item>
+			<view class="userinfo">
+				<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+				<block wx:else>
+					<image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+					<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+				</block>
+			</view>
+			<view class="usermotto">
+				<text class="user-motto">如果按人均75岁算，人生不过短短的900个月，画一个30×30的表格，那么...</text>
+			</view>
+		</swiper-item>
+		<swiper-item>
+			<view class="msg">
+				<text class="user-motto">如果你今年20岁，那么已经走完的人生如下：</text>
+			</view>
+			<view class="grid-container">
+				<view wx:for="{{240}}" class="gridused">
+				</view>
+				<view wx:for="{{660}}" class="grid"></view>
+			</view>
+		</swiper-item>
+		<swiper-item>
+			<view class="msg">
+				<text class="user-motto">假设你和你的女朋友/男朋友谈了一场6个月的感情，它在这张纸上是这样的：</text>
+			</view>
+			<view class="grid-container">
+				<view wx:for="{{216}}" class="grid"></view>
+				<view wx:for="{{6}}" class="gridused" style="background-color:#EA0CA2"></view>
+				<view wx:for="{{678}}" class="grid"></view>
+			</view>
+		</swiper-item>
+
+		<swiper-item>
+			<view class="msg">
+				<text class="user-motto">如果你是一位30岁上下的心力交瘁的上班族，你的人生是这样的：</text>
+			</view>
+			<view class="grid-container">
+				<view wx:for="{{360}}" class="gridused">
+				</view>
+				<view wx:for="{{540}}" class="grid"></view>
+			</view>
+		</swiper-item>
+
+		<swiper-item>
+			<view class="msg">
+				<text class="user-motto">假如你刚有了孩子，在孩子上幼儿园前你能和他朝夕相处的日子是这样的：</text>
+			</view>
+			<view class="grid-container">
+				<view wx:for="{{360}}" class="grid"></view>
+				<view wx:for="{{32}}" class="gridused"></view>
+				<view wx:for="{{508}}" class="grid"></view>
+			</view>
+		</swiper-item>
+
+		<swiper-item>
+			<view class="msg">
+				<text class="user-motto">你的孩子考上大学离开家之前，你们大概能相处这么久：</text>
+			</view>
+			<view class="grid-container">
+				<view wx:for="{{360}}" class="grid"></view>
+				<view wx:for="{{212}}" class="gridused"></view>
+				<view wx:for="{{328}}" class="grid"></view>
+			</view>
+		</swiper-item>
+
+		<swiper-item>
+			<view class="msg">
+				<text class="user-motto">假设我们的父母平均五十岁，他们的人生是这样的：</text>
+			</view>
+			<view class="grid-container">
+				<view wx:for="{{600}}" class="gridused"></view>
+				<view wx:for="{{300}}" class="grid"></view>
+			</view>
+		</swiper-item>
+
+		<swiper-item>
+			<view class="msg">
+				<text class="user-motto">假如你们天天见面，你能陪伴他们的时间是这样的：</text>
+			</view>
+			<view class="grid-container">
+				<view wx:for="{{600}}" class="grid"></view>
+				<view wx:for="{{300}}" class="gridrest"></view>
+			</view>
+		</swiper-item>
+
+		<swiper-item>
+			<view class="msg">
+				<text class="user-motto">假如你们一个月见两次面，你能陪伴他们的时间就是这样的：</text>
+			</view>
+			<view class="grid-container">
+				<view wx:for="{{880}}" class="grid"></view>
+				<view wx:for="{{20}}" class="gridrest"></view>
+			</view>
+		</swiper-item>
+
+		<swiper-item>
+			<view class="msg">
+				<text class="user-motto">假如你们一年见一次面，就会是这样的：</text>
+			</view>
+			<view class="grid-container">
+				<view wx:for="{{899}}" class="grid"></view>
+				<view wx:for="{{1}}" class="gridrest"></view>
+			</view>
+			<picker mode="date" value="{{date}}" start="1900-09-01" end="2025-09-01" bindchange="bindDateChange">
+				<button class="navbtn">设置生辰</button>
+			</picker>
+
+		</swiper-item>
+
+	</swiper>
+</view>

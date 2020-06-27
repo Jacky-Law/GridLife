@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/battery/battery",
+    "pages/splash/splash",
+    "pages/index/index",
+    
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#191919",
+    "navigationBarTitleText": "GridLife",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#e6e6e6",
+    "backgroundColor": "#202020",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "格子",
+        "iconPath": "pages/images/grid.png",
+        "selectedIconPath": "pages/images/grid_select.png"
+      },
+      {
+        "pagePath": "pages/battery/battery",
+        "text": "能量球",
+        "iconPath": "pages/images/battery.png",
+        "selectedIconPath": "pages/images/battery_select.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

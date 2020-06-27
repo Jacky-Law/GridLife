@@ -1,0 +1,95 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin: auto 0;
+}
+
+.grid {
+  font-size: 4em;
+  border: 1px solid black;
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+}
+
+.gridspending {
+  font-size: 4em;
+  border: 1px solid black;
+  display: flex;
+  animation: myani 3s infinite;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes myani {
+  0% {
+    background-color: #38D560;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: #38D560;
+  }
+}
+
+.gridrest {
+  font-size: 4em;
+  border: 1px solid black;
+  display: flex;
+  background-color: #38D560;
+  align-items: center;
+  justify-content: center;
+}
+
+.gridused {
+  font-size: 4em;
+  border: 1px solid black;
+  display: flex;
+  background-color: red;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  margin-top: 30px;
+  width: 100vw;
+  align-self: center;
+  grid-template-columns:repeat(30,10px);/** 平铺宽度为100px的单元格 */
+  grid-template-rows: 10px;/** 设置高度为100px */
+  grid-auto-rows: 10px;/** 当容易高度不够时，多余的组件高度将怎么分配，默认的高度由单元格内容决定 */
+  justify-content: center;/** 水平居中  */
+  grid-gap: 1rpx;/** 水平和垂直间距为10rpx*/
+  padding: auto 20px;
+
+}
+
+canvas {
+  margin-top: 30px;
+  width: 100vw;
+  height: 100vw;
+  padding: auto 20px;
+
+}
+
+.container {
+  padding: 0 0;
+}

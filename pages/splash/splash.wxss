@@ -1,0 +1,85 @@
+/* pages/splash.wxss */
+.container {
+  padding: 0 0;
+}
+
+.userinfo {
+  display: flex;
+  padding-top: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin: 150px 100px;
+}
+
+.msg {
+  margin: 80px 100px;
+}
+
+swiper {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: #191919;
+}
+
+.grid-container {
+  display: grid;
+  margin-top: 30px;
+  width: 100vw;
+  align-self: center;
+  grid-template-columns:repeat(30,10px);/** 平铺宽度为100px的单元格 */
+  grid-template-rows: 10px;/** 设置高度为100px */
+  grid-auto-rows: 10px;/** 当容易高度不够时，多余的组件高度将怎么分配，默认的高度由单元格内容决定 */
+  justify-content: center;/** 水平居中  */
+  grid-gap: 1rpx;/** 水平和垂直间距为10rpx*/
+  padding: auto 20px;
+
+}
+
+.grid {
+  font-size: 4em;
+  border: 1px solid black;
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+}
+
+.gridrest {
+  font-size: 4em;
+  border: 1px solid black;
+  display: flex;
+  background-color: #38D560;
+  align-items: center;
+  justify-content: center;
+}
+
+.gridused {
+  font-size: 4em;
+  border: 1px solid black;
+  display: flex;
+  background-color: red;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbtn {
+  background-color: #191919;
+  color: #ffffff;
+  border: 1px solid white;
+  margin-top: 10px;
+}
