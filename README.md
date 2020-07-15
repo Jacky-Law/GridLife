@@ -1,4 +1,4 @@
-<img src="imgs/2.png" style="width:414px;" />
+<img src="imgs/2.png" style="width:200px;" />
 <img src="imgs/2.png" style="width:414px;" />
 <img src="imgs/2.png" style="width:414px;" />
 <img src="imgs/2.png" style="width:414px;" />
