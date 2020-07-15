@@ -27,7 +27,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.11.2",
-	"appid": "wx9d9cdbfd35bba4b6",
+	"appid": "",
 	"projectname": "GridLife",
 	"debugOptions": {
 		"hidedInDevtools": []
