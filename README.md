@@ -2,7 +2,7 @@
 
 ![1](imgs/1.png)
 
-![2](imgs\2.png)
+<img src="imgs/2.png" style="width:200px height:300px" />
 
 ![3](imgs\3.png)
 
