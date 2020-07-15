@@ -1,6 +1,6 @@
 # GridLife
 
-![1](imgs\1.png)
+![1](imgs/1.png)
 
 ![2](imgs\2.png)
 
