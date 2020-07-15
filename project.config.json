@@ -22,12 +22,12 @@
 			"disablePlugins": [],
 			"outputPath": ""
 		},
-		"useCompilerModule": true,
+		"useCompilerModule": false,
 		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.11.2",
-	"appid": "",
+	"appid": "wx9d9cdbfd35bba4b6",
 	"projectname": "GridLife",
 	"debugOptions": {
 		"hidedInDevtools": []

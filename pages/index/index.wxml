@@ -13,6 +13,8 @@
 		<view wx:for="{{899-months}}" class="gridrest"></view>
 	</view>
 	<view class="usermotto">
-		<text class="user-motto">My GridLife</text>
+		<picker mode="date" value="{{date}}" start="1900-09-01" end="2025-09-01" bindchange="bindDateChange">
+			<button class="navbtn">设置生辰</button>
+		</picker>
 	</view>
 </view>

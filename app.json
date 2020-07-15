@@ -1,11 +1,9 @@
 {
   "pages": [
-    "pages/battery/battery",
     "pages/splash/splash",
+    "pages/battery/battery",
     "pages/index/index",
-    
     "pages/logs/logs"
-    
   ],
   "window": {
     "backgroundTextStyle": "dark",

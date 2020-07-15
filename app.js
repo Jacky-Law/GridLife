@@ -5,9 +5,9 @@ App({
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
-    wx.navigateTo({
+    /*wx.navigateTo({
       url: 'pages/splash/splash',
-    })
+    })*/
 
     // 登录
     wx.login({

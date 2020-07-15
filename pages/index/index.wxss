@@ -85,3 +85,10 @@
 .container {
   padding: 0 0;
 }
+
+.navbtn {
+  background-color: #191919;
+  color: #ffffff;
+  border: 1px solid white;
+  margin-top: 10px;
+}

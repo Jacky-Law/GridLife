@@ -82,14 +82,13 @@
 
 }
 
-canvas {
-  margin-top: 30px;
-  width: 100vw;
-  height: 100vw;
-  padding: auto 20px;
-
-}
-
 .container {
   padding: 0 0;
+}
+
+.navbtn {
+  background-color: #191919;
+  color: #ffffff;
+  border: 1px solid white;
+  margin-top: 10px;
 }
